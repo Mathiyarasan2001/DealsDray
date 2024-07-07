@@ -1,5 +1,4 @@
-import 'package:dealsdraypvt/Screens/HomeScreen.dart';
-import 'package:dealsdraypvt/Screens/LoginScreen.dart';
+import 'package:dealsdraypvt/Screens/BottomNav/bottomNavigation.dart';
 import 'package:dealsdraypvt/Screens/SplashScreen.dart';
 import 'package:flutter/material.dart';
 
@@ -17,13 +16,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           useMaterial3: true,
         ),
-        home:
-
-            // Homescreen()
-            splashScreen()
-        //     loginScreen(
-        //   deviceId: "66863b1b5120b12d7e1820ee",
-        // )
-        );
+        home: splashScreen());
   }
 }

@@ -1,3 +1,4 @@
+import 'package:dealsdraypvt/Services/SplashApiServices.dart';
 import 'package:flutter/material.dart';
 
 class splashScreen extends StatefulWidget {
@@ -8,6 +9,19 @@ class splashScreen extends StatefulWidget {
 }
 
 class _splashScreenState extends State<splashScreen> {
+  final Splashapiservices _apiService = Splashapiservices();
+
+  @override
+  void initState() {
+    super.initState();
+    _startSplashScreen();
+  }
+
+  _startSplashScreen() async {
+    await Future.delayed(Duration(seconds: 3));
+    await _apiService.splashapi(context);
+  }
+
   @override
   Widget build(BuildContext context) {
     return Center(

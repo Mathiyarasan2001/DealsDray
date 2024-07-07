@@ -1,6 +1,7 @@
 import 'dart:convert';
 
-import 'package:dealsdraypvt/Screens/HomeScreen.dart';
+import 'package:dealsdraypvt/Screens/BottomNav/HomeScreen.dart';
+import 'package:dealsdraypvt/Screens/BottomNav/bottomNavigation.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
@@ -27,7 +28,7 @@ class CreateNewUserApiServices {
         Navigator.pushReplacement(
             context,
             MaterialPageRoute(
-              builder: (context) => Homescreen(),
+              builder: (context) => BottomnavigationScreen(),
             ));
       } else {
         print(response.body);
