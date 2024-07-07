@@ -54,7 +54,7 @@ class _Banner1State extends State<Banner1> {
               padding: const EdgeInsets.all(7),
               child: Container(
                 height: 200,
-                width: 280,
+                width: 300,
                 decoration: BoxDecoration(
                     image: DecorationImage(
                         image: NetworkImage(banner[index]["banner"]))),

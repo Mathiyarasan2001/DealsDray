@@ -1,3 +1,4 @@
+import 'package:dealsdraypvt/Screens/BottomNav/HomeScreen.dart';
 import 'package:dealsdraypvt/Screens/BottomNav/bottomNavigation.dart';
 import 'package:dealsdraypvt/Screens/SplashScreen.dart';
 import 'package:flutter/material.dart';

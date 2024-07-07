@@ -8,7 +8,7 @@ class kycPending extends StatelessWidget {
     return Center(
       child: Container(
         height: 150,
-        width: 310,
+        width: 350,
         decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(10), color: Color(0xff575dcf)),
         child: Center(

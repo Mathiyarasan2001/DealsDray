@@ -29,7 +29,7 @@ class _HomescreenState extends State<Homescreen> {
         ],
         title: SizedBox(
           height: 45,
-          width: 250,
+          width: 400,
           child: TextField(
             decoration: InputDecoration(
                 hintText: "Search here",
@@ -55,7 +55,7 @@ class _HomescreenState extends State<Homescreen> {
       ),
       floatingActionButton: TextButton.icon(
         style: TextButton.styleFrom(
-            fixedSize: Size(100, 30), backgroundColor: Colors.red),
+            fixedSize: Size(130, 50), backgroundColor: Colors.red),
         onPressed: () {},
         label: Text(
           "Chat",

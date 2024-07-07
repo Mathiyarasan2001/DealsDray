@@ -53,7 +53,7 @@ class _CategoriesState extends State<Categories> {
             return Padding(
               padding: const EdgeInsets.all(5),
               child: Container(
-                width: 80,
+                width: 90,
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   mainAxisAlignment: MainAxisAlignment.center,

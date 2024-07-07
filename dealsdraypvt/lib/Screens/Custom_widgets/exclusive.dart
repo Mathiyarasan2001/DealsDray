@@ -45,7 +45,7 @@ class _ExclusiveState extends State<Exclusive> {
         child: Container(
           height: 450,
           width: 500,
-          color: Color.fromARGB(255, 57, 106, 147),
+          color: Color.fromARGB(255, 47, 176, 190),
           child: Column(
             children: [
               Padding(
@@ -55,10 +55,10 @@ class _ExclusiveState extends State<Exclusive> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "Exclusive For You",
+                      "EXCLUSIVE FOR YOU",
                       style: TextStyle(
                           color: Colors.white,
-                          fontSize: 18,
+                          fontSize: 20,
                           fontWeight: FontWeight.w500),
                     ),
                     IconButton(
@@ -71,7 +71,7 @@ class _ExclusiveState extends State<Exclusive> {
                 ),
               ),
               Container(
-                height: 300,
+                height: 330,
                 width: 500,
                 child: ListView.builder(
                   scrollDirection: Axis.horizontal,
